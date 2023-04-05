@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_NAME = os.environ.get("DATABASE_NAME", "mycloudxrobot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʏᴀ {first}👋!\n\n✭ ᴡʜᴀᴛ ɪ ᴅᴏ?\n\n\n\n‣ ɪ ᴄᴀɴ sᴛᴏʀᴇ ʏᴏᴜʀ ғɪʟᴇs/ᴛᴇxᴛs.\n\n‣ ᴛʜɪs ʙᴏᴛ ᴅᴇsɪɢɴ sᴛᴏʀᴇ ᴍᴇᴅɪᴀ/ғɪʟᴇs. ᴅᴜᴇ ᴛᴏ ᴍᴜᴄʜ ʟᴏᴀᴅ ʙᴏᴛ ᴄᴀɴ ʙᴇ ʀᴇsᴘᴏɴsᴇ sʟᴏᴡʟʏ (ᴅᴇᴘᴇɴᴅs ᴏɴ ʟᴏᴀᴅ).\n\n‣ ᴛʜɪs sᴘᴇᴄɪᴀʟʟʏ ғᴏʀ ᴡʜᴏ ᴡᴀɴᴛ ᴛᴏ sᴛᴏʀᴇ ғɪʟᴇs\n\n‣ **ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʏᴏᴜʀ ғɪʟᴇ/ᴛᴇxᴛ/ᴍᴇᴅɪᴀ/ & ɢᴇᴛ ʏᴏᴜʀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ.**")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ\n\nᴋɪɴᴅʟʏ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "**ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ ᴄʟɪᴄᴋ /start ᴀɢᴀɪɴ ᴀғᴛᴇʀ ᴊᴏɪɴ**")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
