@@ -43,11 +43,11 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "ʜᴇʏᴀ {first}👋!\n\n✭ ᴡʜᴀᴛ ɪ ᴅᴏ?\n\n\n\n‣ ɪ ᴄᴀɴ sᴛᴏʀᴇ ʏᴏᴜʀ ғɪʟᴇs/ᴛᴇxᴛs.\n\n‣ ᴛʜɪs ʙᴏᴛ ᴅᴇsɪɢɴ sᴛᴏʀᴇ ᴍᴇᴅɪᴀ/ғɪʟᴇs. ᴅᴜᴇ ᴛᴏ ᴍᴜᴄʜ ʟᴏᴀᴅ ʙᴏᴛ ᴄᴀɴ ʙᴇ ʀᴇsᴘᴏɴsᴇ sʟᴏᴡʟʏ (ᴅᴇᴘᴇɴᴅs ᴏɴ ʟᴏᴀᴅ).\n\n‣ ᴛʜɪs sᴘᴇᴄɪᴀʟʟʏ ғᴏʀ ᴡʜᴏ ᴡᴀɴᴛ ᴛᴏ sᴛᴏʀᴇ ғɪʟᴇs\n\n‣ **ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʏᴏᴜʀ ғɪʟᴇ/ᴛᴇxᴛ/ᴍᴇᴅɪᴀ/ & ɢᴇᴛ ʏᴏᴜʀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ.**"
+      "value": ""
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "**ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ ᴄʟɪᴄᴋ /start ᴀɢᴀɪɴ ᴀғᴛᴇʀ ᴊᴏɪɴ**"
+      "value": "<b>ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ ᴄʟɪᴄᴋ /start ᴀɢᴀɪɴ ᴀғᴛᴇʀ ᴊᴏɪɴ</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
