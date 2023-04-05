@@ -83,17 +83,17 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-#                 [
-#                     InlineKeyboardButton(
-#                         text=f"✨ ɢʀᴏᴜᴘ ✨",
-#                         url=f"https://t.me/BESTIES_ZONE",
-#                     ),
+                [
+                    InlineKeyboardButton(
+                        text=f"✨ ɢʀᴏᴜᴘ ✨",
+                        url=f"https://t.me/BESTIES_ZONE",
+                    ),
                     
-#                     InlineKeyboardButton(
-#                         text=f"✨ ᴄʜᴀɴɴᴇʟ ✨",
-#                         url=f"https://t.me/DeltaApkMods",
-#                     )
-#                 ]
+                    InlineKeyboardButton(
+                        text=f"✨ ᴄʜᴀɴɴᴇʟ ✨",
+                        url=f"https://t.me/DeltaApkMods",
+                    )
+                ],
                 [
                     InlineKeyboardButton("🥀 ᴀʙᴏᴜᴛ ᴍᴇ 🥀", callback_data = "about"),
                     InlineKeyboardButton("✮ ᴄʟᴏsᴇ ✮", callback_data = "close")
